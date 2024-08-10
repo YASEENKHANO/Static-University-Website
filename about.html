@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+
+
+</head>
+<body>
+     
+    <section class="sub-header">
+        <nav>
+          <a href="home.html"><img src="images/logo.png.jpg"></a>
+            <div class="nav-links" id="navLinks">
+              <i class="fa fa-times" onclick="hideMenu()"></i>
+      
+                  <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+              
+      
+                 </ul>
+             </div>
+             <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav>
+        
+    <h1>
+        About Us  
+    </h1>
+      
+      </section>
+      <!---About Us content --->
+        
+      <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>
+                    we are the world largest university.</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit eum perspiciatis, quia beatae fugit excepturi repellendus officia quod ullam fugiat possimus in est et eligendi aut molestiae distinctio reiciendis sint?</p>
+           <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+                </div>
+            <div class="about-col">
+                    <img src="images/banner2.png.jpg">
+                
+            </div>
+
+        </div>
+          
+</section>
+
+
+
+      
+      
+      
+      
+      
+      <!----footer-->
+
+<section class="footer">
+    <h4>About Us</h4>
+
+    <P>Filling the Contact form would not work But if you want to contact reach me on my linkedIn profile I can make one for you using signalR or Gmail smtp<span style="color: black;">Click on the linkedIn icon below</span></P>
+
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        
+      <a href="https://www.linkedin.com/in/muhammad-yaseen-khan-16790919a"><i class="fa fa-linkedin"></i></a>
+       
+      <i class="fa fa-twitter"></i>
+    </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by yaseen</p>
+
+
+
+
+
+</section>
+
+
+<!---java script for toggle menu---->
+<script>
+var navLinks = document.getElementById("navLinks");
+
+function   showMenu(){
+navLinks.style.right = "0";
+}
+function   hideMenu(){
+navLinks.style.right = "-200px";
+}
+
+</script>
+
+
+
+
+
+</body>
+</html>

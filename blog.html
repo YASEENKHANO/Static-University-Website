@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+
+
+</head>
+<body>
+     
+    <section class="sub-header">
+        <nav>
+          <a href="home.html"><img src="images/logo.png.jpg"></a>
+            <div class="nav-links" id="navLinks">
+              <i class="fa fa-times" onclick="hideMenu()"></i>
+      
+                  <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+              
+      
+                 </ul>
+             </div>
+             <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav>
+        
+    <h1> Our blogpost</h1>
+     </section>
+     
+      
+     
+      <!---blog page content --->
+        <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <img src="images/certificate.jpg">
+                    <h2>Our Certificate </h2>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda numquam, culpa explicabo tempore laborum totam id iusto, recusandae animi, ipsam quos magnam earum. Dolorem aliquam beatae explicabo enim commodi laboriosam!
+                    </p><br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse sed numquam quae at magni dolor ex minus vero atque quo, nam delectus, culpa ipsam quaerat nisi. Explicabo blanditiis minima voluptas.</p>
+                <br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae sit aliquam a debitis, quis fugiat animi consequuntur, vero tempore molestias iure voluptate natus corporis enim excepturi perferendis! Veritatis, quidem reprehenderit.</p>
+                <br>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic amet quis in voluptates tempora fugit eligendi quos quod. Officiis rem odit in. Incidunt magnam id, voluptatem veritatis excepturi necessitatibus repellat!
+                </p>
+           
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+
+                </div>
+
+
+
+
+
+
+
+            </div>
+                <div class="blog-right">
+                    <h3>Post categories</h3>
+                    <div>
+                      <span>Business Analytics</span>
+                      <span>21</span> </div>
+              
+               <div>
+                <span>Data Science</span>
+                      <span>25</span> 
+                </div>
+                <div>
+                    <span>Machine Learnning</span>
+                      <span>87</span> 
+                </div>
+                <div>
+                      <span>Computer Science</span>
+                      <span>77</span> 
+                </div>
+                <div>
+                    <span>Auto CAD</span>
+                      <span>29</span> 
+                </div>
+                <div>                    
+                     <span>ECommerece</span>
+                      <span>22</span> 
+                </div>
+            </div>
+        </section>
+     
+      
+      
+      
+      
+      <!----footer-->
+
+<section class="footer">
+    <h4>About Us</h4>
+
+    <P>Filling the Contact form would not work But if you want to contact reach m o lined profile i can mkae one for you using signalR or Gmail smtp<span style="color: black;">Click on the linkedIn icon below</span></P>
+
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        
+      <a href="https://www.linkedin.com/in/muhammad-yaseen-khan-16790919a"><i class="fa fa-linkedin"></i></a>
+       
+      <i class="fa fa-twitter"></i>
+    </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by yaseen</p>
+
+
+
+
+
+</section>
+
+
+<!---java script for toggle menu---->
+<script>
+var navLinks = document.getElementById("navLinks");
+
+function   showMenu(){
+navLinks.style.right = "0";
+}
+function   hideMenu(){
+navLinks.style.right = "-200px";
+}
+
+</script>
+
+
+
+
+
+</body>
+</html>
